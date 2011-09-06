@@ -1,0 +1,3 @@
+cd ~/developer/workspace/gko_villa_plein_sud
+bundle install
+rails s
