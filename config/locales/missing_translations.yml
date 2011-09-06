@@ -1,0 +1,28 @@
+---
+fr:
+  layouts:
+    public:
+      master_header:
+        user:
+          links:
+            sign_out: Sign Out
+  locales:
+    en: En
+  admin:
+    mail_methods:
+      actions:
+        new: New
+        edit: Edit
+        destroy: Destroy
+      menu_tab: Menu Tab
+      titles:
+        index: Index
+    homes:
+      actions:
+        new: New
+        destroy: Destroy
+    pages:
+      actions:
+        view: View
+  flash:
+    close: Close
