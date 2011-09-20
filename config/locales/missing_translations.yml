@@ -6,6 +6,11 @@ fr:
         user:
           links:
             sign_out: Sign Out
+  activerecord:
+    errors:
+      models:
+        image:
+          incorrect_dimensions: Incorrect Dimensions
   locales:
     en: En
   admin:
