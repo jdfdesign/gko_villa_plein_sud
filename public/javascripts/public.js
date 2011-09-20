@@ -363,7 +363,7 @@ $(document).ready(function() {
             width: available_size.w,
             height: available_size.h
         })
-        log("w: " + available_size.w + "   h: " + available_size.h);
+       // log("w: " + available_size.w + "   h: " + available_size.h);
         Galleria.get(0).rescale(available_size.w, available_size.h, e);
         if (wasPlaying) {
             gallery.start();
@@ -404,7 +404,7 @@ $(document).ready(function() {
         })
         .live("ajax:success.rails",
         function(data, status, xhr) {
-            log("success: ", status);
+            //log("success: ", status);
 						var obj = $(status);
 						refresh_slideshow(obj.find("div.images:first"));
 						obj.eq(0).empty();
@@ -412,7 +412,7 @@ $(document).ready(function() {
         })
         .live("ajax:error.rails",
         function(xhr, status, error) {
-            log("error html: ", xhr);
+            //log("error html: ", xhr);
         })
         .live("ajax:complete.rails",
         function(xhr, status) {
